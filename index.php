@@ -1,10 +1,7 @@
 <?php
 
-$text = 'Bonjour';
-function invertWord($text) : string {
-    return implode(array_reverse(str_split($text)));
-}
+$numbers = [5, 17, 54, 2, 48, 35];
 
-echo invertWord($text);
+echo max($numbers)
 
 ?>
